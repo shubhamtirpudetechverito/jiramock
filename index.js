@@ -9,5 +9,5 @@ app.get('/rest/api/2/issue/:key', (req, res) => {
       status: { name: 'To Do' }
     }
   });
-});,,
+});
 app.listen(4000, () => console.log('Jira mock on http://localhost:4000'));
